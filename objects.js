@@ -30,6 +30,6 @@ delete user.password;
 //an array that looks similar to ['js_slinger', 'tm@gmail.com', '5/2/1990'];
 
  var values = [];
- for (var i = user.length - 1; i >= 0; i--) {
- 	values[i].push;
+ for (var key in user) {
+ 	values.push(user[key]);
  };
